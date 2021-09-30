@@ -6,8 +6,7 @@ class MoneyChange_Greedy
 {
   
     // All denominations of Indian Currency 
-    static int deno[] = {1000, 2000, 5000, 10000, 20000, 
-    50000, 100000, 200000, 500000};
+    static int deno[] = {1,2,5,10};
     static int n = deno.length;
   
     static void findMin(int V)
@@ -37,7 +36,7 @@ class MoneyChange_Greedy
     // Driver code 
     public static void main(String[] args) 
     {
-        int n = 487000;
+        int n = 38;
         System.out.print(
             "Following is minimal number "
             +"of change for " + n + ": ");

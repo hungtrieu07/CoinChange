@@ -14,15 +14,10 @@ import java.util.List;
 	 */
 	private static void init() {
 		coins = new ArrayList<Integer>();
-		coins.add(500000);
-		coins.add(200000);
-		coins.add(100000);
-		coins.add(50000);
-		coins.add(20000);
-		coins.add(10000);
-        coins.add(5000);
-        coins.add(2000);
-        coins.add(1000);
+		coins.add(10);
+		coins.add(5);
+		coins.add(2);
+		coins.add(1);
 	}
 	 
 	/**
@@ -54,7 +49,7 @@ import java.util.List;
 	}
 	
 	public static void main(String[] args) {
-		int amount = 120000;
+		int amount = 38;
 		init();
 		coinCombinations(amount,0,new LinkedList<Integer>());
 		System.out.println("Number of Combinations :" + count);
